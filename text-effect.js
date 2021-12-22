@@ -1,27 +1,22 @@
 let graphic;
-let font
-
-function preload() {
-    font = loadFont('spacegrotesk-medium.otf')
-}
 
 function setup() {
     createCanvas(600, 600);
-    background("#e84e3c")
+    background("#1D1D1D")
 
     // create offscreen graphics buffer
     graphic = createGraphics(600, 600);
 
     // type setup offscreen in buffer
-    graphic.textFont(font)
+    graphic.textFont("Helvetica")
     graphic.textSize(800)
     graphic.textAlign(CENTER, CENTER)
-    graphic.fill('#F3C043')
+    graphic.fill('#FFFFFF')
     graphic.text('a', width / 2, height / 2 - 60)
 }
 
 function draw() {
-    background("#e84e3c")
+    background("#1D1D1D")
 
     const tiles = 6
     const tileSize = 600 / tiles
