@@ -1,0 +1,15 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #e74e3c;
+	color: #333333;
+}
+
+canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+}
+
